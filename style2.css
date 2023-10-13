@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: bisque;
+    /* border-bottom: 2px solid wheat; */
+}
+
+h1 {
+    font-size: 3rem;
+    margin-left: 10px;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    list-style: none;
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 5rem; */
+    padding: 3rem 0;
+    background: linear-gradient(rgba(220, 207, 207, 0.762), rgba(136, 100, 131, 0.597));
+}
+
+.content h2 {
+    font-size: 5rem;
+    color: beige;
+}
+
+.content span {
+    color: gold;
+}
+
+.content p span {
+    font-weight: 700;
+}
+
+.content p {
+    font-size: 2.5rem;
+    color: bisque;
+    margin-top: 15px;
+}
+
+.left-content {
+    margin-top: 60px;
+}
+
+.right-content img {
+    margin: 20px;
+    border-radius: 10rem;
+
+}
+
+.content2 {
+    color: rgb(255, 255, 255);
+    background-image: url(travel2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width : 1202px) {
+    .content h2 {
+        display: block;
+        font-size: 3rem;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .left-content {
+        text-align: center;
+    }
+
+    .right-content {
+        display: flex;
+        justify-content: center;
+        margin-top: 0 20px;
+    }
+
+    .right-content img {
+        padding-top: 1rem;
+        margin: 5px;
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .content p {
+        font-size: 1.5rem;
+        color: white;
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width : 580px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .right-content img {
+        margin: 5px;
+        width: 140px;
+        height: 140px;
+    }
+}

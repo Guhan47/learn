@@ -1,0 +1,165 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the body */
+body {
+ font-family: 'poppins', sans-serif;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#3f5efb,#fc466b);
+}
+
+/* Styling for the form container */
+form {
+ display: flex;
+    flex-direction: column;
+    width:500px;
+    height:700px;
+    align-items: center; /* Center the form content vertically */
+    justify-content: center;
+    background: rgba(255, 255,255,0.06);
+    box-shadow: 0  8px 32px 0 rgba(31,38,135,.37);
+    border-radius: 30px;
+    border-top:1px solid rgba(255, 255,255,.3);
+    border-left:1px solid rgba(255, 255,255,.3);
+}
+
+/* Styling for the form header */
+h1{
+    width:100%;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 4px;
+    opacity: 0.6;
+    color: white;
+    margin-bottom:20px;
+    border-bottom: 4px solid white;
+}
+label{
+    width:100%;
+    padding-left: 15px;
+    color: white;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+input{
+    width:70%;
+    margin: 10px auto;
+    padding: 8px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+
+
+}
+
+.btn{
+    width:100%;
+    margin-top: 20px;
+}
+ button{
+
+        width:40%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: azure;
+        text-decoration: none;
+        margin: 10px auto;
+        border-radius: 20px;
+        padding: 8px;
+        color: rgb(0, 0, 0);
+        letter-spacing: 2px;
+        font-family: 'poppins', sans-serif;
+        font-size: medium;
+        border: none;
+         /* Other button styles */
+    transition: box-shadow 0.5s ease;
+    /* Add a smooth transition for the box-shadow property */
+    transition: background-color 0.5s ease;
+
+
+
+}
+
+
+input {
+    /* Other button styles */
+    transition: box-shadow 0.5s ease; /* Add a smooth transition for the box-shadow property */
+}
+input:hover {
+    box-shadow: 0 0 18px rgba(249, 0, 0, 0.7); /* Increase the shadow on hover */
+}
+
+
+
+
+
+/* Styling for input fields and labels
+.input-container {
+    margin-bottom: 15px;
+}
+
+.input-container label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+*/
+
+/* Styling for the register button
+.button-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+*/
+/*
+.button-container{
+margin-bottom:30px;
+}
+*/
+/* Styling for the login link */
+
+
+/* Hover effect for the register button
+.button-container button:hover {
+    background-color: #0056b3;
+}
+a{
+text-decoration:none;
+ background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top:40px;
+
+}
+*/

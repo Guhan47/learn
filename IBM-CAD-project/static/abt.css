@@ -1,0 +1,118 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #4b6cb7, #182848);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+p{
+ color: white;}
+.container {
+width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   border: 2px solid #06A0D2;
+
+    border-radius:23px;
+    padding:40px;
+ border-radius:25px;
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+
+}
+
+
+
+
+.content {
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.content1{
+width:50%;
+}
+
+.profile-image {
+    width: 260px; /* Adjust the size as needed */
+    height: 260px; /* Adjust the size as needed */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left:10px;
+    border: 3px solid #007bff; /* Add a blue border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+
+
+}
+
+/* Add this to your existing CSS file or create a new one if you haven't */
+.fit-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.image-content {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons  {
+width:100%;
+display:flex;
+align-item:center;
+justify-content:center;
+margin:40px;
+text-decoration: none;
+}
+.social-icons a{
+padding:7px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the size as needed */
+}
+li{
+
+color:black;
+font-family: 'poppins', sans-serif;
+}h2{
+
+
+font-size:25px;}
+
+
+
+ @media (max-width: 768px) {
+            /* Adjust styles for smaller screens */
+            .container {
+                flex-direction: column;
+            }
+
+            .content, .content1 {
+                width: 100%;
+            }
+
+            .profile-image {
+                width: 200px;
+                height: 200px;
+            }

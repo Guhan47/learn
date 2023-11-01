@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='formstyle.css') }}">
+
+
+</head>
+<body>
+    <form method="POST" autocomplete="off">
+        <h1>LOGIN</h1>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="input-field" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" class="input-field" required>
+
+        <div class="next">
+            <button type="submit" class="submit-button">GO</button>
+        </div>
+       <img src="/static/images/f1.jpg" width="170px" height="170px">
+
+
+
+
+    </form>
+</body>
+</html>

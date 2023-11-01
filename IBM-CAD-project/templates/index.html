@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelersWorld</title>
+    <link rel="icon" href="captures/logo.jpg">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <header class="head">
+        <h1>TRAVELERS WORLD</h1>
+        <ul class="nav">
+            <a href="{{ url_for('info') }}"><li>INFO</li></a>
+            <hr>
+            <a href="{{ url_for('about') }}"><li>ABOUT</li></a>
+
+        </ul>
+    </header>
+    <main>
+        <div class="content">
+            <div class="left">
+                <h2>LOVE TO <span>TRAVEL</span> THEN FOLLOW OUR MOTO</h2>
+                <br>
+                <p>MOTO:"collect <span>moments </span> not <span>things</span>"</p>
+            </div>
+
+
+            <div class="right">
+
+                    <img src="static/images/c1.jpg" width="300px" height="300px">
+                    <img src="static/images/c3.jpg" width="300px" height="300px">
+
+            </div>
+        </div>
+
+        <div class="money">
+        <a href="{{ url_for('form_detail') }}" class="btn">SIGN IN</a>
+
+      <a href="{{ url_for('login') }}" class="btn1">LOG IN</a>
+
+        </div>
+    </main>
+</body>
+</html>

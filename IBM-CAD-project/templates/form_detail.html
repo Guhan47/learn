@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Details</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fd.css') }}">
+</head>
+<body>
+    <form method="POST" action="/form_detail">
+        <h1>Registration Details</h1>
+
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" id="fullname" class="input-field" required>
+
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="input-field"  required>
+
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" class="input-field"  required>
+
+
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" name="confirm_password" id="confirm_password" class="input-field"  required>
+
+            <div class="btn">
+            <button type="submit" class="submit">Submit</button>
+            </div>
+    </form>
+</body>
+</html>

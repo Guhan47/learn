@@ -1,0 +1,102 @@
+/* style.css */
+body {
+    width:100%;
+    height:100vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width:100%;
+    display: flex;
+}
+h1 {
+    width:100%;
+    background-color: rgb(255, 170, 0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'poppins', sans-serif;
+}
+p{
+    font-family: 'poppins', sans-serif;
+    font-size: larger;
+    text-wrap: wrap;
+    color: white;
+}
+span{
+    font-family: 'poppins', sans-serif;
+    color: rgb(255, 170, 0);
+    letter-spacing: 9px;
+}
+h3{
+    color: aliceblue;
+    font-family: 'poppins', sans-serif;
+}
+h2{
+    color: aliceblue;
+    font-family: 'poppins', sans-serif;
+}
+hr{
+
+    border: 2px solid #FFAA00;
+}
+
+
+
+.blog-post{
+    padding-left: 50px;
+    width:50%;
+}
+.blog-post img{
+
+    width:50%;
+    padding-left: 150px;
+    height:auto;
+    display: flex;
+    border-radius: 30px;
+    padding-bottom: 20px;
+
+}
+
+.blog-post1{
+    width:50%;
+    padding-left: 50px;
+
+}
+.blog-post1 img{
+
+    width:50%;
+    padding-left: 150px;
+    height:auto;
+    display: flex;
+    border-radius: 25px;
+
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding: 45px;
+}
+.slide{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+a{ text-decoration: none;
+    margin-left: 50px;
+    padding: 10px;
+    letter-spacing: 8px;
+
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 170, 0);
+}
+
